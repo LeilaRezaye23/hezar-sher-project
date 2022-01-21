@@ -18,7 +18,7 @@
     padding: 30px 20px;
 }
 
-.poem--container, .description--container{
+.faal-box, .tafsir-box{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,20 +26,24 @@
     border-radius: 15px;
     padding: 30px 40px;
 }
-.poem--name{
+.faal-name{
     font-size: 16px;
     margin-bottom: 20px;
 }
-.poem--container audio{
+#audio{
     margin-top: 20px;
 }
-.description--container{
+.tafsir-box{
     margin: 20px 0;
+    position: relative;
 }
-.description--container h2{
+.tafsir-box h2{
     font-size: 16px;
-    align-self: flex-end;
     margin-bottom: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
 }
 .main-page-btn{
     display: block;
