@@ -17,10 +17,9 @@ const ShaerSlider=()=>{
         });
     });
     return(
-        <Swiper
+        <Swiper className='swiper'
             navigation={true}
-            slidesPerView={4}
-            centeredSlides={true}
+            slidesPerView={5}
             spaceBetween={50}       
         >
          {shaers.map((shaer)=>(

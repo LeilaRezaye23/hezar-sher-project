@@ -1,39 +1,26 @@
-
+.swiper{
+    margin-left: 200px;
+}
 .shaer-swiper{
-    height:100%;
-    width: 187px;
-    background-color: #fff;
+    width: 50;
+    height:250px;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px 0;
     border-radius: 15px;
-    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.16);
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.30);
     margin: 5px 0;
 }
 .shaer-swiper img{
-    width: 200px;
-    height:200px;
+    width: 150px;
+    height:150px;
     object-fit: contain;
 }
-.shaer-swiper h1{
+.shaer-swiper span{
     font-size: 16px;
-    margin: 20px 0 10px 0;
-}
-.swiper-button-prev,
-.swiper-button-next{
-    background-color: #6788BE;
-    border-radius: 50%;
-    height: 40px !important;
-    width: 40px !important;
-    position: relative;
-}
-.swiper-button-prev::after,
-.swiper-button-next::after{
-    font-size: 16px !important;
-    color:#fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    margin-top: 40px ;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
